@@ -3,17 +3,20 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import {getFirestore} from "@firebase/firestore"
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Import the functions you need from the SDKs you need
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCWaIvx-BCkmMzobdTMA0IrHdqArt8E9g8",
-  authDomain: "clone-2deb3.firebaseapp.com",
-  databaseURL: "https://clone-2deb3-default-rtdb.firebaseio.com",
-  projectId: "clone-2deb3",
-  storageBucket: "clone-2deb3.appspot.com",
-  messagingSenderId: "701571369482",
-  appId: "1:701571369482:web:cc79bbab709d4102696df3",
-  measurementId: "G-305JBQPRNC"
+  apiKey: "AIzaSyC3GEt_Rn0HlcpPnD5tSXkVaPW5tqzZOKI",
+  authDomain: "clone-app-54c68.firebaseapp.com",
+  projectId: "clone-app-54c68",
+  storageBucket: "clone-app-54c68.appspot.com",
+  messagingSenderId: "475338936574",
+  appId: "1:475338936574:web:1171b9dacc11bde58855af"
 };
+
+// Initialize Firebase
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
